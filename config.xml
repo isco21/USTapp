@@ -27,7 +27,7 @@
 
     <allow-intent href="*" />
 
-    <preference name="phonegap-version" value="cli-6.1.0" />
+    <preference name="phonegap-version" value="cli-6.5.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
@@ -117,10 +117,7 @@
     <gap:plugin name="phonegap-plugin-push" source="npm" version="1.7.0">
         <param name="SENDER_ID" value="learn-moodle-1159" />
     </gap:plugin>
-    <gap:plugin name="net.tunts.webintent" />
-    <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
-        <param name="URL_SCHEME" value="learnmoodle" />
-    </gap:plugin>
+    
     <gap:plugin name="ionic-plugin-keyboard" source="npm" />
     <gap:plugin name="de.appplant.cordova.plugin.local-notification" source="npm" />
     <gap:plugin name="ch.ti8m.documenthandler" version="0.2.1" />
